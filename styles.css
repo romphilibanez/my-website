@@ -161,6 +161,30 @@ footer {
     color: #666;
 }
 
+.projects-link {
+    text-align: center;
+    margin-top: 30px; /* Adjust the spacing above */
+}
+
+.projects-link h3 {
+    margin-bottom: 15px; /* Adds space between text and button */
+}
+
+.projects-link .button {
+    display: inline-block;
+    margin-top: 5px; /* Adds space between button and text */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.projects-link .button:hover {
+    background-color: #0056b3;
+}
+
 
 .back-link {
     display: inline-block;
@@ -220,4 +244,67 @@ footer {
     font-size: 30px;
     color: white;
     cursor: pointer;
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.certificate-card {
+    width: 200px;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.certificate-card p {
+    font-weight: bold;
+    margin: 10px 0;
+	color: #666;
+}
+
+.certificate-card a {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.certificate-card a:hover {
+    color: #0056b3;
+}
+
+.certificates-link {
+    text-align: center;
+    margin-top: 30px; /* Adds space above the section */
+}
+
+.certificates-link h3 {
+    margin-bottom: 15px; /* Adds space between text and button */
+}
+
+.certificates-link .button {
+    display: inline-block;
+    margin-top: 5px; /* Adds space between button and text */
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.certificates-link .button:hover {
+    background-color: #0056b3;
 }
